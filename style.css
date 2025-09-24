@@ -5,4 +5,38 @@ body {
     width: 100vw;
     background-color: #080f17;
     color: white;
+
+    font-family: Arial;
+}
+
+h1 {
+    letter-spacing: 0.2rem;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+a {
+    color: rgb(199, 0, 199);
+}
+
+.gps {
+    padding: 20px;
+    padding-left: 30px;
+    background-color: rgb(60, 65, 65);
+    position: fixed;
+    bottom: -80px;
+    
+    left: 270px;
+
+    width: 420px;
+    height: 500px;
+}
+
+.gps-border {
+    padding: 10px;
+    position: fixed;
+    bottom: -50px;
+    
+    left: 200px;
+    z-index: 99;
 }
