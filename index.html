@@ -8,11 +8,18 @@
 
 <body>
 
+    <img src="moon.png" style="position: absolute; top: -50px; right: 100px;
+    opacity: 0.9" width="400px">
+
     <img src="gps.png" class="gps-border">
     <div class="gps">
-        <span>Welcome to...</span>
-        <h1>Wigglebutt woods</h1>
-        <span>Home of the wigglebutts</span>
+        <div class="collapse" onClick="start()">
+            <span>Collapse</span>
+        </div>
+
+        <span>Scanning...</span>
+        <h1 style="margin: 10px 0">Wigglebutt woods</h1>
+        <span>Home of the wigglebutts, a mysterious musical species.</span>
 
         <p>This sample text was taken from Node, uh, 45.</p>
 
@@ -38,6 +45,8 @@
     </div>
 
     <img src="loader.png" width="250px">
+
+    <script src="script.js"></script>
 </body>
 
 </html>

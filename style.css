@@ -9,6 +9,18 @@ body {
     font-family: Arial;
 }
 
+.collapse {
+    color: white;
+    position: absolute;
+    right: -120px;
+
+    cursor: pointer;
+}
+
+img {
+    pointer-events: none;
+}
+
 h1 {
     letter-spacing: 0.2rem;
     font-family: Arial;
