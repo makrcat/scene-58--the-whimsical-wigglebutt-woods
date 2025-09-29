@@ -7,12 +7,14 @@
 </head>
 
 <body>
+    <audio id="woof" src="woof.mp3"></audio>
+    <audio id="arf" src="arf.mp3"></audio>
 
-    <img src="moon.png" style="position: absolute; top: -50px; right: 100px;
-    opacity: 0.9" width="400px">
+    <img src="big_idle1.png" width="300px" style="position: absolute; bottom: 10px" id="big">
+    <img src="small_idle1.png" width="180px" style="position: absolute; bottom: 10px; left: 400px" id="small">
 
-    <img src="gps.png" class="gps-border">
-    <div class="gps">
+    <div id="gps">
+        <img src="gps.png" class="gps-border">
         <div class="collapse" onClick="start()">
             <span>Collapse</span>
         </div>
@@ -25,7 +27,8 @@
 
         <ul>
             <li>
-                <p>Feeling lost? I recall this specific place on the map.. very descriptive.. very discovered. What was
+                <p>Feeling lost? I recall this specific place on the map.. very descriptive.. very discovered. What
+                    was
                     it
                     called...Node 45. Just <a href="/scenes/45/">Node 45.</a>.
             </li>
@@ -42,6 +45,7 @@
 
         <p><em>Thank you for using the Summer of Making Grand Expedition.</em></p>
 
+    </div>
     </div>
 
     <img src="loader.png" width="250px">
