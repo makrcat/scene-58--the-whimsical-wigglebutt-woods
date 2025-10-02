@@ -15,15 +15,6 @@ body {
     overflow:hidden;
 }
 
-
-.collapse {
-    color: white;
-    position: absolute;
-    right: -120px;
-
-    cursor: pointer;
-}
-
 img {
     pointer-events: none;
 }
