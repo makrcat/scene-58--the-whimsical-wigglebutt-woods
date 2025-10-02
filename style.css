@@ -57,11 +57,14 @@ a {
     transform: translateY(calc(600px));
   }
 }
-#gps.fade {
-  animation: slide 0.5s forwards;
+
+a {
+  color: rgb(214, 0, 0);
 }
 
-
+#gps.fadeout {
+  animation: slide 0.5s forwards;
+}
 .gps-border {
     left: -50px;
     top: -50px;

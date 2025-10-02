@@ -9,7 +9,11 @@ function start() {
 
 
 function fadeOutStart() {
-    document.getElementById("gps").classList.add("fade");
+    document.getElementById("gps").classList.add("fadeout");
+}
+
+function putthatback() {
+    document.getElementById("gps").classList.remove("fadeout");
 }
 
 function startGame() {
