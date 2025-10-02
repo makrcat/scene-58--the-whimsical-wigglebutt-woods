@@ -4,6 +4,11 @@ function start() {
     startGame();
     console.log("started")
     fadeOutStart();
+
+    const audio = document.getElementById("bgm");
+    audio.muted = false;
+    audio.currentTime = 0;
+    audio.play();
 }
 
 
@@ -123,3 +128,4 @@ window.addEventListener("keydown", (e) => {
         }
     }
 });
+

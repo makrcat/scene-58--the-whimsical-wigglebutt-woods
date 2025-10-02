@@ -7,6 +7,9 @@
 </head>
 
 <body>
+
+    <audio id="bgm" src="cminorprogfade.mp3" autoplay loop muted></audio>
+
     <audio id="woof" src="woof.mp3"></audio>
     <audio id="arf" src="arf.mp3"></audio>
     <audio id="alien" src="alien.mp3"></audio>
@@ -15,8 +18,6 @@
     <audio id="pop" src="pop.mp3"></audio>
     <audio id="mp_e" src="mp_e.mp3"></audio>
     <audio id="fireSOUND" src="fire.mp3"></audio>
-
-    <audio id="cminorprogfade" src="cminorprogfade.mp3" autoplay loop></audio>
 
     <img src="big_idle1.png" width="300px" style="position: absolute; bottom: 140px; left: 350px;" id="big">
     <img src="small_idle1.png" width="180px" style="position: absolute; bottom: 120px; left: 670px;" id="small">
@@ -32,7 +33,7 @@
     <img src="puff1.png" width="110px" style="position: absolute; bottom: 20px; left: 320px;" id="puff">
     <img src="og1.png" width="120px" style="position: absolute; bottom: 50px; left: 100px;" id="og">
 
-    <img src="fire1.png" width="400px" style="position: absolute; bottom: -50px; right: 300px" id="fire">
+    <img src="fire1.png" width="400px" style="position: absolute; bottom: -50px; right: 400px" id="fire">
 
 
     <div id="gps">
@@ -43,7 +44,10 @@
 
         <span>Scanning...</span>
         <h1 style="margin: 10px 0">Wigglebutt woods</h1>
-        <span>Home of the wigglebutts, a mysterious musical species.</span>
+        <span>Home of the wigglebutts, a mysterious musical species.
+            <br><br>
+            Wigglebutts are also known as <b>Aussie dogs</b>! They get this characteristic name from the movements they like to make when excited. <br><br> I didn't have too much time with this project, for personal reasons. Hope it's fun to play around with though :)
+        </span>
 
         <p>This sample text was taken from Node, uh, 45.</p>
 
@@ -71,21 +75,28 @@
     </div>
 
     <img src="loaderbgfix.png" width="250px" style="
-        position: absolute; top: 0px; left: 50px;
-    " id="loader" class="spin">
+        position: absolute; top: 0px; left: 50px;" id="loader" class="spin">
 
+    <img src="clef.png" width="100px" style=" opacity: 0.7;
+        position: absolute; top: 20px; left: 300px;">
 
-    <span style="position: absolute; top: 0px; right: 65px; opacity: 0.8; color: white;
-    top: 30px; width: 320px;  text-shadow: 0 0 8px #fff, 0 0 16px rgb(0, 166, 255), 0 0 24px rgb(0, 166, 255)">
+    <span style="position: absolute; top: 0px; right: 25px; opacity: 0.8; color: white;
+    top: 30px; width: 200px;  text-shadow: 0 0 16px rgb(0, 166, 255), 0 0 24px rgb(0, 166, 255)">
 
         INFO: drawn by makrcat! also, hastily coded by makrcat in the span of an hour or two :)
+<br><br>
+        INSTRUC: probably turn up your volume to like, 3 bars. then press any of these:
+
+        <br>
+        
+        <code>Q W E A S D Z X C</code> 
+        
+        <br>to hear funny
+        things.
 
         <br><br>
-
-        INSTRUC: press <code>Q W E A S D Z X C</code> to hear funny things
-
-        <br><br>
-        CLICK: <button onclick="putthatback()">this lovely button</button> to bring back the guide
+        CLICK: <button onclick="putthatback()" class="button">this lovely button</button> to bring back the guide
+        <br><br> Credits: all AUDIO from pixabay, some credits in README
     </span>
 
     <script src="script.js"></script>
