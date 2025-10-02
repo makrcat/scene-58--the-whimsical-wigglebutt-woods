@@ -15,6 +15,12 @@ function fadeOutStart() {
 function startGame() {
     const woof = document.getElementById("woof");
     const arf = document.getElementById("arf");
+    const alien = document.getElementById("alien");
+    const bell = document.getElementById("bell");
+    const drum = document.getElementById("drum");
+    const pop = document.getElementById("pop");
+    const mp_e = document.getElementById("mp_e");
+    const fire = document.getElementById("fire");
 
     // horrible way of doing this but it's ok lmao
     const spriteBig = document.getElementById("big");
@@ -32,13 +38,13 @@ function startGame() {
     const thingys = [
         new thingy(spriteBig, "big_idle1.png", "big_idle2.png", "big_sing.png", "a", woof),
         new thingy(spriteSmall, "small_idle1.png", "small_idle2.png", "small_sing.png", "s", arf),
-        new thingy(spritePuff, "puff1.png", "puff2.png", "puff3.png", "q", arf),
-        new thingy(spritePlant, "plant1.png", "plant2.png", "plant3.png", "w", arf),
-        new thingy(spriteOg, "og1.png", "og2.png", "og3.png", "s", arf),
-        new thingy(spritePink, "pink1.png", "pink2.png", "pink3.png", "e", arf),
-        new thingy(spriteGreen, "green1.png", "green2.png", "green3.png", "d", arf),
-        new thingy(spriteFire, "fire1.png", "fire2.png", "fire2.png", "z", arf),
-        new thingy(spriteBlue, "blue1.png", "blue2.png", "blue3.png", "x", arf),
+        new thingy(spritePuff, "puff1.png", "puff2.png", "puff3.png", "q", pop),
+        new thingy(spritePlant, "plant1.png", "plant2.png", "plant3.png", "w", mp_e),
+        new thingy(spriteOg, "og1.png", "og2.png", "og3.png", "s", drum),
+        new thingy(spritePink, "pink1.png", "pink2.png", "pink3.png", "e", mp_e),
+        new thingy(spriteGreen, "green1.png", "green2.png", "green3.png", "d", alien),
+        new thingy(spriteFire, "fire1.png", "fire2.png", "fire2.png", "z", fire),
+        new thingy(spriteBlue, "blue1.png", "blue2.png", "blue3.png", "x", bell),
     ];
 
     setInterval(() => {
