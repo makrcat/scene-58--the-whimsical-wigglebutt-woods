@@ -9,8 +9,12 @@ body {
     font-family: Arial;
     background-image: url("SDcounty.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: bottom;
+
+    overflow:hidden;
 }
+
 
 .collapse {
     color: white;
